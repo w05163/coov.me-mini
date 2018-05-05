@@ -1,0 +1,22 @@
+/* components/picker/picker.wxss */
+
+.picker{
+}
+
+.item{
+	display: inline-block;
+	line-height: 12vw;
+	width: 33.3333%;
+	padding: 0.5em;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.2em;
+}
+.name{
+	border: 1rpx solid #ccc;
+	border-radius: 4px;
+}
+.item.active>.name{
+	background: #2770e1;
+	color: #fff;
+}

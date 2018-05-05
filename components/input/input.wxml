@@ -1,0 +1,6 @@
+<!--components/input/input.wxml-->
+<view class="input">
+	<image wx:if="{{icon}}" src="{{icon}}" class="icon"/>
+	<input value="{{value}}" bindinput="input" bindfocus="focus" bindblur="blur" bindconfirm="confirm"/>
+	<image wx:if="{{value}}" src="{{imgs.verifyIconDelete}}" bindtap="clear" class="clear"/>
+</view>

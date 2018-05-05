@@ -1,0 +1,6 @@
+{
+	"backgroundColor": "#efefef",
+	"usingComponents": {
+    "modal": "../../components/coverModal/coverModal"
+  }
+}

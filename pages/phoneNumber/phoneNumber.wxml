@@ -1,0 +1,11 @@
+<image src="{{imgs.iconLogo}}" class="logo"/>
+<view class="name color">{{name}}</view>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="getUserInfo" disabled="{{props.user.nickname}}">
+	<image src="{{imgs.verifyIconMicroLetterLogin}}"/>
+	微信用户快速登录
+</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" disabled="{{!props.user.nickname||props.user.mobile}}">
+	<image src="{{imgs.verifyIconMicroLetterLogin}}"/>
+	授权获取手机号码
+</button>
+<view class="text colorText">点击登录，即表示已阅读并同意<span bindtap="navigate" data-url="../privacy/privacy" class="color">《服务条款》</span></view>

@@ -1,0 +1,20 @@
+/* components/input/input.wxss */
+.input{
+	display: flex;
+	border-bottom: 1rpx solid #ccc;
+	align-items: center;
+	line-height: 2;
+	padding: 0.5em 0 0.5em 1em;
+}
+.icon{
+	width: 1.2em;
+	height: 1.2em;
+}
+.clear{
+	height: 1em;
+	width: 1em;
+}
+input{
+	flex-grow: 1;
+	padding-left: 1em;
+}

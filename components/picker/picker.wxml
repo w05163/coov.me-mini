@@ -1,0 +1,15 @@
+<!--components/picker/picker.wxml-->
+<view class="picker">
+	<view 
+		wx:for="{{options}}" 
+		wx:key="{{item.value}}"
+		data-value="{{item.value}}" 
+		class="item {{value==item.value?'active':''}}"
+		bindtap="onChange"
+	>
+		<view class="name" data-value="{{item.value}}" >
+			{{item.name}}
+			<small>{{unit}}</small>
+		</view>
+	</view>
+</view>

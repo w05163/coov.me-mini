@@ -1,0 +1,37 @@
+/* pages/phoneNumber/phoneNumber.wxss */
+.logo{
+	width: 33vw;
+	height: 33vw;
+	display: block;
+	margin: auto;
+	margin-top: 16vw;
+}
+.name{
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+button{
+	background: #1aad19;
+	display: block;
+	width: 80%;
+	text-align: center;
+	border-radius: 6px;
+	line-height: 3.4;
+}
+.button-hover{
+	background: #138613;
+}
+button image{
+	width: 1.6em;
+	height: 1.6em;
+	vertical-align: middle;
+}
+
+.text{
+	width: 100%;
+	position: fixed;
+	bottom: 10vw;
+	text-align: center;
+}

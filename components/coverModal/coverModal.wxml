@@ -1,0 +1,13 @@
+<cover-view class="backgroundMask" hidden="{{!visible}}">
+	<cover-view class="modal-box">
+		<cover-view class="modal-nav">{{title}}</cover-view>
+		<cover-view class="modal-content" style="{{style}}">
+			<slot></slot>
+		</cover-view>
+		<cover-view class="modal-footer">
+			<cover-view class="modal-button" bindtap="onCancel">{{cancel}}</cover-view>
+			<cover-view class="modal-br"/>
+			<cover-view class="modal-button active" bindtap="onSubmit">{{submit}}</cover-view>
+		</cover-view>
+	</cover-view>
+</cover-view>

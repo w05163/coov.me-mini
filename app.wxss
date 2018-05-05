@@ -1,0 +1,48 @@
+/*通用样式*/
+.body,page{
+	min-height: 100vh;
+	font-size: 14px;
+	background: #f8fbfe
+}
+page{
+	border-top: 1rpx solid #eee;
+}
+
+button{
+	background: #2770e1;
+	color: #fff;
+	font-size: 28rpx;
+	border-radius: 35rpx;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	margin-top: 1em;
+}
+button.disabled{
+	background: #737373;
+}
+.button-hover,.button.button-hover{
+	background: #1f5cb8;
+	color: #fff;
+}
+
+.color{
+	color: #2770e1;
+}
+.deepColor{
+	color: #113770;
+}
+.colorText{
+	color: #888;
+}
+
+.big{
+	font-size: 1.5em;
+}
+.small,small{
+	font-size: 0.7em;
+}
+.bbr{
+	border-bottom: 1rpx solid #ccc;
+}
+.btr{
+	border-top: 1rpx solid #ccc;
+}

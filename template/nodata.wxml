@@ -1,0 +1,6 @@
+<!--个人页订单列表的单个订单模板  -->
+<template name="nodata">
+	<view style="font-size: 2em;text-align: center;color: #888;padding-top: 2em;">
+		暂无数据
+	</view>
+</template>

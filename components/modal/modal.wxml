@@ -1,0 +1,13 @@
+<view class="backgroundMask" hidden="{{!visible}}">
+	<view class="modal-box">
+		<view class="modal-nav">{{title}}</view>
+		<view class="modal-content" style="{{style}}">
+			<slot></slot>
+		</view>
+		<view class="modal-footer">
+			<view class="modal-button" bindtap="onCancel">{{cancel}}</view>
+			<view class="modal-br"/>
+			<view class="modal-button active" bindtap="onSubmit">{{submit}}</view>
+		</view>
+	</view>
+</view>

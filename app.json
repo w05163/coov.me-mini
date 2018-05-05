@@ -1,0 +1,13 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/phoneNumber/phoneNumber"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "瞎子面",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": false
+	}
+}
